@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #74707a, #353c48);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    background-color: rgb(182, 158, 158);
+    border-radius: 10px;
+    /* Adjust border radius */
+    box-shadow: 0 4px 20px rgba(242, 8, 8, 0.2);
+    overflow: hidden;
+    width: 450px;
+    /* Adjust width for a medium rectangular format */
+    transition: transform 0.3s;
+    padding: 20px
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 200px;
+    /* Fixed width for image */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.card-content {
+    padding: 25px;
+    /* Add padding for content */
+
+
+}
+
+h2 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+p {
+    color: #555;
+    margin: 5px 0;
+    font-size: 1em;
+}
